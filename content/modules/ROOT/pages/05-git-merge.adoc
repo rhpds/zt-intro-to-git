@@ -1,0 +1,33 @@
+You have made changes to your experimental_change branch and are now
+ready to incorporate those changes into your main branch. To do this,
+you will pull the changes to the main branch and then delete the
+experimental_change branch. Additionally, when merging branches, you
+must be in the branch that you want to apply the changes to. For
+example, in this case, you will move into the main branch before merging
+the experimental_change branch.
+
+To initiate a merge of experimental_change’s changes into main, run the
+following commands:
+
+[source,bash]
+----
+git checkout main #moves back into the main branch
+git merge experimental_change #pulls changes from experimental_change into main
+----
+
+The output should look like this:
+
+Typically, merging works well, but if there are conflicts that could not
+be resolved automatically, you will have to sort through them. This is a
+broad topic, but you can learn more about it here:
+https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+
+Now that you have merged the branches, you are ready to delete the
+experimental_change branch. To do this, run the following command:
+
+[source,bash]
+----
+git branch -d experimental_change
+----
+
+You have now learned the basics of Git in Red Hat Enterprise Linux!

@@ -1,0 +1,25 @@
+First, set a name for yourself with Git. This identifies your changes to
+facilitate more efficient collaboration. To set a value for name, run
+the following command:
+
+[source,bash]
+----
+git config --global user.name "Sample Name"
+----
+
+Next, set an email address. Like your name, this identifies your changes
+to facilitate more efficient collaboration. To set the email address,
+run the following command:
+
+[source,bash]
+----
+git config --global user.email "your_email@example.com"
+----
+
+Finally, set an initial branch name for your Git repositories. In this
+example, we will set it to `+main+`.
+
+[source,bash]
+----
+git config --global init.defaultBranch "main"
+----

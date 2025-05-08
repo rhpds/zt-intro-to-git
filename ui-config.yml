@@ -1,0 +1,24 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-install-git"
+      label: "Install Git"
+      solveButton: true
+    - name: "02-configure-git"
+      label: "Configure Git"
+      solveButton: true
+    - name: "03-create-repository"
+      label: "Create Repository"
+      solveButton: true
+    - name: "04-create-branch"
+      label: "Create Branch"
+      solveButton: true
+    - name: "05-git-merge"
+      label: "Git Merge"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty

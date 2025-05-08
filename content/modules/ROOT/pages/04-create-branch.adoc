@@ -1,0 +1,43 @@
+First, Make a new branch in your repository called
+"`experimental_change`" by running the following command:
+
+[source,bash]
+----
+git branch experimental_change
+----
+
+Then, use checkout to switch to the new branch
+
+[source,bash]
+----
+git checkout experimental_change
+----
+
+The output should look like this:
+
+Next, for the sake of demonstrating changes in Git, run the following
+command to modify the files in your repository:
+
+[source,bash]
+----
+#adds some text to the end of sample.txt
+tee -a sample.txt << EOF
+This is some addtional sample text. It is appended to the original sample.txt file.
+EOF
+
+#deletes helloworld.cpp
+rm helloworld.cpp
+
+#removes "World" from the output of helloworld.py and replaces it with "user"
+sed -i 's/World/user/' helloworld.py
+----
+
+Finally, commit these changes to the experimental_change branch by
+running the following command:
+
+[source,bash]
+----
+git commit -am "made random changes to all files"
+----
+
+The output should look like this:
