@@ -20,7 +20,7 @@ The output should look like this:
 Typically, merging works well, but if there are conflicts that could not
 be resolved automatically, you will have to sort through them. This is a
 broad topic, but you can learn more about it here:
-https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts[https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts^]
 
 Now that you have merged the branches, you are ready to delete the
 experimental_change branch. To do this, run the following command:
