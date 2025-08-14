@@ -4,7 +4,7 @@ git by running the following command
 
 [source,bash]
 ----
-dnf install -y git
+sudo dnf install -y git
 ----
 
 Next, install Red Hat Developer Toolset. While it is not necessary for
@@ -14,7 +14,7 @@ Individuals. To install, run the following command:
 
 [source,bash]
 ----
-dnf group install -y "Development Tools"
+sudo dnf group install -y "Development Tools"
 ----
 
 The RHEL Developer Subscription for Individuals includes:
