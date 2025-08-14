@@ -1,4 +1,5 @@
 #!/bin/sh
+cd /home/my-repo #changes the working directory to your Git repository
 git branch experimental_change
 git checkout experimental_change
 #adds some text to the end of sample.txt
