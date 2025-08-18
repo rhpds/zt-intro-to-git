@@ -5,19 +5,19 @@ antora:
   modules:
     - name: "01-install-git"
       label: "Install Git"
-      solveButton: true
+      solveButton: false
     - name: "02-configure-git"
       label: "Configure Git"
-      solveButton: true
+      solveButton: false
     - name: "03-create-repository"
       label: "Create Repository"
-      solveButton: true
+      solveButton: false
     - name: "04-create-branch"
       label: "Create Branch"
-      solveButton: true
+      solveButton: false
     - name: "05-git-merge"
       label: "Git Merge"
-      solveButton: true
+      solveButton: false
 
 tabs:
   - name: ">_ terminal"
