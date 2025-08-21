@@ -3,8 +3,8 @@ Next, you will create a Git repository. Make a repository called
 
 [source,bash]
 ----
-mkdir /home/my-repo #makes a directory within the home folder for your Git repository
-cd /home/my-repo #changes the working directory to your Git repository
+mkdir my-repo #makes a directory within the home folder for your Git repository
+cd my-repo #changes the working directory to your Git repository
 git init #creates a Git repository in the working directory
 ----
 
