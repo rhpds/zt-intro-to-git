@@ -14,9 +14,9 @@ git checkout experimental_change
 ----
 
 The output should look like this:
-<pre class="file">
+....
 Switched to branch 'experimental_change'
-</pre>
+....
 
 Next, for the sake of demonstrating changes in Git, run the following
 command to modify the files in your repository:
@@ -44,8 +44,8 @@ git commit -am "made random changes to all files"
 ----
 
 The output should look like this:
-<pre class="file">
+....
 [experimental_change 8f223de] made changes to all files
 3 files changed, 2 insertions (+), 7 deletions(-)
 delete mode 100644 helloworld.cpp
-</pre>
+....
